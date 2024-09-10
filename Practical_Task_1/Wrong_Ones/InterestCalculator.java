@@ -26,3 +26,7 @@ public class interestCalculator { // Incorrect naming convention, should be Inte
         System.out.println("Calculated Interest: " + interest);
     }
 }
+
+
+
+

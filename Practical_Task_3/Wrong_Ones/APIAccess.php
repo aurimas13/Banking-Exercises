@@ -1,3 +1,4 @@
+package Practical_Task_3.Wrong_Ones.Java;
 public class APIAccess {
     public static void main(String[] args) {
         String apiKey = "1234567890";
@@ -19,7 +20,5 @@ public class APIAccess {
         return "1234567890"; // Simulated user input, insecure
     }
 }
-
-
 
 

@@ -14,3 +14,5 @@ public class LoanCalculator {
         System.out.println("Interest calculated.");
     }
 }
+
+

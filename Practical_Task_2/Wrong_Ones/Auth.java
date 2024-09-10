@@ -18,3 +18,6 @@ public class Auth {
         undefinedMethod();  // This will cause a compile-time error
     }
 }
+
+
+

@@ -20,3 +20,6 @@ public class BankAccount {
         int invalidType = "This is a string";  // This will cause a compile-time error
     }
 }
+
+
+
