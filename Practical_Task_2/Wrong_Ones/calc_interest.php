@@ -64,5 +64,3 @@ $interest = $bank->calculateInterest(50000, 0.05, 5);
 $bank->manageUserAccount("John Doe", 5000);
 $bank->processTransaction(1000, $balance = 5000);
 
-
-

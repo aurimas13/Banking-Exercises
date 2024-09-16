@@ -29,6 +29,3 @@ $interest = $calculator->calculateInterest(1000, 0, 2); // Test with zero rate
 echo "Calculated Interest: " . $interest . "\n";
 
 ?>
-
-
-

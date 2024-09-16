@@ -10,6 +10,3 @@ def encrypt_customer_data(data):
 # Example flawed data encryption
 data = {'username': 'user1', 'password': 'pass123'}
 encrypt_customer_data(data)
-
-
-

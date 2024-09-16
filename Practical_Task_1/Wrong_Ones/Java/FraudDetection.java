@@ -1,3 +1,4 @@
+package Java;
 public class FraudDetection {
     public static void Main(String[] args) {
         Transaction t = new transaction(10000, "XYZ", "savings", true);

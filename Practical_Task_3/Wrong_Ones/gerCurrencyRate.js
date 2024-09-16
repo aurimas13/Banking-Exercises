@@ -11,3 +11,5 @@ let toCurrency = "EUR";
 getCurrencyRate(fromCurrency, toCurrency).then(rate => {
     console.log(`Exchange rate from ${fromCurrency} to ${toCurrency}: ${rate}`);
 });
+
+

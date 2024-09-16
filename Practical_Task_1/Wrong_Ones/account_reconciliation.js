@@ -27,5 +27,3 @@ const accounts = [
 ];
 reconcileAccounts(accounts);
 
-
-

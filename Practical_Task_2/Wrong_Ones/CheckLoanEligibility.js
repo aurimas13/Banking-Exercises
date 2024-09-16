@@ -124,5 +124,3 @@ checkLoanEligibility(25, 40000, 650).then(result => console.log(result));
 // // // Example usage
 // // CheckLoanEligibility(25, 40000, 650).then(result => console.log(result));
 
-
-

@@ -31,4 +31,3 @@ print(get_user_details(username))
 # username = "john_doe"
 # print(get_user_details(username))
 
-

@@ -64,6 +64,3 @@ FraudDetection::Main();
 
 ?>
 
-
-
-

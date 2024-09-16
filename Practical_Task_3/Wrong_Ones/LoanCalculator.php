@@ -88,4 +88,3 @@ setupDatabase();
 $calculator = new LoanCalculator();
 $calculator->main();
 ?>
-

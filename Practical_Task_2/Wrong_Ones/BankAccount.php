@@ -23,6 +23,3 @@ $account->calcInt(50000, 0.05, 5);
 
 // Uncomment the following line to trigger the intentional error
 // $account->incorrectType();
-
-
-
