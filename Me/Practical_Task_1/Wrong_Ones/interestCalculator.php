@@ -2,18 +2,14 @@
 
 class InterestCalculator {
     public function calculateInterest($principal, $rate, $time) {
-        // Bug 1: Arithmetic error caused by division by zero (runtime error)
-        if ($rate == 0 || $time == 0) {
             throw new ArithmeticError("Division by zero: Rate or time cannot be zero.\n");
         }
 
-        // Bug 2: Throwing an uncaught exception for negative principal (exception handling error)
         if ($principal < 0) {
             throw new InvalidArgumentException("Principal cannot be negative.\n");
         }
 
-        // Bug 3: Incorrect logic causing negative interest (logical error)
-        $interest = ($principal * $rate * $time) / -100;  // This will return negative interest
+        $interest = ($principal * $rate * $time) / -100; 
         return $interest;
     }
 }

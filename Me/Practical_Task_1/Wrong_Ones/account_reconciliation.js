@@ -1,7 +1,7 @@
 function reconcileAccounts(accounts) {
     let reconciled = [];
     
-    for (let i = 0; i <= accounts.length; i++) { // Bug: Incorrect loop condition, should be < not <=
+    for (let i = 0; i <= accounts.length; i++) 
         let account = accounts[i];
         let difference = account.credits - account.debits;
         
@@ -10,11 +10,11 @@ function reconcileAccounts(accounts) {
         } else if (difference < 0) {
             account.status = 'unbalanced';
         } else {
-            account.status = 'zero balance'; // Bug: Zero balance status may not be desired
+            account.status = 'zero balance';
             console.log("Error: Account has zero balance, reconciliation flawed.");
         }
         
-        reconciled.push(account); // Bug: Pushes undefined on the last iteration due to loop error
+        reconciled.push(account);
     }
     
     return reconciled;
