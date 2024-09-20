@@ -18,3 +18,4 @@ if (validateTransaction(amount)) {
     console.log("Transaction processed: $" + amount);
 }
 
+
